@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "URLess", "URLess\URLess.csproj", "{2123CD01-3F75-4937-9E04-68E4B4F48D20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "URLess.DAL", "URLessDAL\URLess.DAL.csproj", "{72219AE5-6737-496B-9D93-C4BFBD82C453}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "URLess.Core", "URLessCore\URLess.Core.csproj", "{3F96855C-6A75-46A3-A722-CE0346C07971}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URLess.Tests", "URLess.Tests\URLess.Tests.csproj", "{567CDF48-024C-4B3B-A896-6955BA545778}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URLess.IntegrationTests", "URLess.IntegrationTests\URLess.IntegrationTests.csproj", "{AD9EC3C0-A02E-4973-A47D-05BA396C34B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EF88C3EE-8C00-4CEE-8AFF-E5FAFF2A8CD4}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2123CD01-3F75-4937-9E04-68E4B4F48D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2123CD01-3F75-4937-9E04-68E4B4F48D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2123CD01-3F75-4937-9E04-68E4B4F48D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2123CD01-3F75-4937-9E04-68E4B4F48D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72219AE5-6737-496B-9D93-C4BFBD82C453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72219AE5-6737-496B-9D93-C4BFBD82C453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72219AE5-6737-496B-9D93-C4BFBD82C453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72219AE5-6737-496B-9D93-C4BFBD82C453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F96855C-6A75-46A3-A722-CE0346C07971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F96855C-6A75-46A3-A722-CE0346C07971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F96855C-6A75-46A3-A722-CE0346C07971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F96855C-6A75-46A3-A722-CE0346C07971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{567CDF48-024C-4B3B-A896-6955BA545778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567CDF48-024C-4B3B-A896-6955BA545778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567CDF48-024C-4B3B-A896-6955BA545778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567CDF48-024C-4B3B-A896-6955BA545778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD9EC3C0-A02E-4973-A47D-05BA396C34B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD9EC3C0-A02E-4973-A47D-05BA396C34B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD9EC3C0-A02E-4973-A47D-05BA396C34B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD9EC3C0-A02E-4973-A47D-05BA396C34B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DBF5B89-443A-4F34-8134-7497FF430040}
+	EndGlobalSection
+EndGlobal

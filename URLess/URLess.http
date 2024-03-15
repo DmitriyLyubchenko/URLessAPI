@@ -1,0 +1,6 @@
+@URLess_HostAddress = http://localhost:5255
+
+GET {{URLess_HostAddress}}/url/
+Accept: application/json
+
+###
