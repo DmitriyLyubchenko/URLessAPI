@@ -65,13 +65,8 @@ namespace URLessCore.Services
                 return id;
             }
 
-            for (var i = 0; ; i++)
+            for (var i = 0; i < MaxRetry; i++)
             {
-                if (i == MaxRetry)
-                {
-                    throw new InvalidOperationException($"Cannot generate shortened url for '{url}' after {MaxRetry} retries");
-                }
-
                 id = _idGenerator.Regenerate();
 
                 if (_cache.Get(id) == null && 
@@ -80,6 +75,8 @@ namespace URLessCore.Services
                     return id;
                 }
             }
+
+            throw new InvalidOperationException($"Cannot generate shortened url for '{url}' after {MaxRetry} retries");
         }
     }
 }

@@ -3,6 +3,7 @@ using Microsoft.OpenApi.Models;
 using System.Reflection;
 using URLess.Core.Interfaces;
 using URLess.Core.Services;
+using URLess.Middleware;
 using URLessCore.Interfaces;
 using URLessCore.Services;
 using URLessDAL.Data;
@@ -43,6 +44,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseMiddleware<ErrorHandlerMiddleware>();
 
 app.UseHttpsRedirection();
 
